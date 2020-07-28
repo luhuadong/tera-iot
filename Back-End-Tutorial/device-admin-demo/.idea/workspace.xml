@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e3c044e-4866-4a62-b8c6-54962ad1da5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/mapper/TestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/DeviceAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/DeviceAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../device-admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/src/main/java/com/example/device/admin/service/impl/AliyunDeviceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../device-admin/src/main/java/com/example/device/admin/service/impl/AliyunDeviceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../device-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/common/constant/result/BaseResp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DeviceEvent$CurrentHumidityPropertyInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DeviceEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DeviceLifecyclePost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DevicePropertyPost$CurrentHumidityPropertyInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DevicePropertyPost$CurrentTemperaturePropertyInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DevicePropertyPost$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DevicePropertyPost$TempThresholdPropertyInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DevicePropertyPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/bo/DeviceStatusPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/po/AlarmHistoryLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/po/DeviceInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/entity/po/DevicePropHistoryLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/mapper/AlarmHistoryLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/mapper/DeviceInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/mapper/DevicePropHistoryLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/dao/util/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/AlarmHistoryLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/AliyunDeviceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/DeviceInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/DevicePropHistoryLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/constant/DeviceStatusCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/impl/AlarmHistoryLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/impl/AliyunDeviceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/impl/DeviceInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/service/impl/DevicePropHistoryLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/DeviceAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/DeviceMessageRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/config/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/controller/DeviceDisplayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/com/example/device/admin/web/util/AliyunMessageTransformUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/mapper/AlarmHistoryLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/mapper/DeviceInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/mapper/DevicePropHistoryLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../device-admin/target/classes/schema/device-admin.sql" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1987697110">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="12" />
+          <entry key="properties" value="21" />
+          <entry key="xml" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="12" />
+          <entry key="Properties" value="21" />
+          <entry key="XML" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="982896786">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="22" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="9" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="22" />
+          <entry key="Properties" value="9" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="69" />
+          <entry key="properties" value="42" />
+          <entry key="xml" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="69" />
+          <entry key="Properties" value="42" />
+          <entry key="XML" value="68" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/web/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/web/DeviceAdminApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/mapper/TestMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/util/BaseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mapper-spring-boot-starter</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/controller/DeviceAdminApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/entity/po/TestModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/util/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/mapper/TestMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/device/admin/web/DeviceAdminApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="device-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="50" />
+    <option name="y" value="170" />
+    <option name="width" value="1295" />
+    <option name="height" value="665" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device-admin-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device-admin-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562811950605" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.device.admin.web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.device.admin.dao.util" />
+      <recent name="com.example.device.admin.web.controller" />
+      <recent name="com.example.device.admin.dao.mapper" />
+      <recent name="com.example.device.admin.dao.entity.po" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\device-admin\src\main\resources" />
+      <recent name="D:\device-admin\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DeviceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="device-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.device.admin.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.device.admin.web.DeviceAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DeviceAdminApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e3c044e-4866-4a62-b8c6-54962ad1da5b" name="Default Changelist" comment="" />
+      <created>1553669369367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553669369367</updated>
+      <workItem from="1553669374458" duration="3427000" />
+      <workItem from="1553677852504" duration="5409000" />
+      <workItem from="1553741605729" duration="6669000" />
+      <workItem from="1553755855733" duration="20000" />
+      <workItem from="1553758835597" duration="366000" />
+      <workItem from="1557035204967" duration="2705000" />
+      <workItem from="1557215180742" duration="1558000" />
+      <workItem from="1557385825853" duration="633000" />
+      <workItem from="1562668823696" duration="2143000" />
+      <workItem from="1562748247214" duration="76000" />
+      <workItem from="1562748361809" duration="10262000" />
+      <workItem from="1562812176151" duration="1211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34479000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2419571" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.72206706" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.88547486" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.37988827" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.1.RELEASE/spring-boot-starter-parent-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/entity/po/TestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/web/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/web/DeviceAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/device/admin/dao/util/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>device-admin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
